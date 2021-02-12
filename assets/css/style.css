@@ -1,8 +1,7 @@
-/* Applies box-sizing to all elements */
 * {
+    margin: 0;
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
 }
 
 body {
@@ -21,16 +20,17 @@ h1 {
     font-size: 48px;
 }
 
+/* Styling for the "seo" within the company name */
 #seo {
     color: #d9dcd6;
 }
 
 nav {
-    padding-top: 15px;
-    margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 20px;
+    padding-top: 15px;
     font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav ul {
@@ -43,35 +43,38 @@ nav ul li {
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
+    color: #ffffff;
 }
 
 p {
     font-size: 16px;
 }
 
+/* Styling for the banner image between header and main */
 #hero-banner {
+    background-image: url("../images/digital-marketing-meeting.jpg"); 
+    background-position: center;
+    background-size: cover;
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg"); 
-    background-size: cover;
-    background-position: center;
 }
 
+/* Styling for main - all content under banner and above footer */
 main {
-    width: 75%;
     display: inline-block;
     margin-left: 20px;
+    width: 75%;
 }
 
+/* Styling for large blue cards in main */
 .main-content {
     margin-bottom: 20px;
-    padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 50px;
     background-color: #0072bb;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
 }
 
@@ -84,27 +87,33 @@ main {
     font-size: 36px;
 }
 
-.float-left {
+/* Main content "cards" alternate the way their text and images are aligned. This is the styling for cards
+with image on the left */
+.content-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+/* Main content "cards" alternate the way their text and images are aligned. This is the styling for cards
+with image on the right */
+.content-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Styling for the aside section appearing on the far right of the page */
 aside {
-    margin-right: 20px;
-    padding: 20px;
     clear: both;
     float: right;
-    width: 20%;
+    margin-right: 20px;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 20%;
+    padding: 20px;
     background-color: #2589bd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* Styling for each benefit, or item, in the aside */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -122,8 +131,8 @@ aside {
 }
 
 footer {
-    padding: 30px;
     clear: both;
+    padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }

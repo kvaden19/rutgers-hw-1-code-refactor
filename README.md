@@ -10,7 +10,7 @@ In this project I overhauled the site's HTML and CSS to improve accessibility. F
 * HTML elements follow a logical structure
 * All images have "alt" attributes
 
-This refactor will make more a much better user experience for any users accessing Horiseon's site with screen readers. It should also improve Horiseon's search engine results, which is crucial since they themselves are a digital marketing firm offering SEO. 
+This refactor will deliver a much better user experience for anyone accessing Horiseon's site with a screen reader. It should also improve Horiseon's search engine results, which is crucial since they themselves are a digital marketing firm offering SEO. 
 
 In addition, I have done some basic link clean-up and CSS consolidation. This will make future updates to Horiseon's pages easier. 
 

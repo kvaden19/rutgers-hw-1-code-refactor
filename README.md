@@ -17,3 +17,4 @@ In addition, I have done some basic link clean-up and CSS consolidation. This wi
 With this project I was able to get hands-on experience with semantic HTML elements and will be using them for my own projects going forward. With some careful attention to each CSS property and what it targets, I was also able to reduce the style sheet from 200 lines to under 150.
 
 Horiseon's refactored landing page can be viewed here:
+https://kvaden19.github.io/rutgers-hw-1-code-refactor/

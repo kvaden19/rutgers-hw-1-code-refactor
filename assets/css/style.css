@@ -52,7 +52,7 @@ p {
 }
 
 /* Styling for the banner image between header and main */
-#hero-banner {
+#banner-image {
     background-image: url("../images/digital-marketing-meeting.jpg"); 
     background-position: center;
     background-size: cover;
